@@ -1,0 +1,7 @@
+Final review
+
+During discussion, the two issues that were most decisive were initialization and comparison to standard Gibbs sampling.
+
+First, the reviewers believe that the initialization methods described in the Canini 2009 paper would have a significant effect on performance and are similar enough to the streaming-sampling setting that they should be considered in greater detail. (This is my experience as well)
+
+Second, we were initially missing a comparison with current batch Gibbs algorithms. The authors helpfully provided those results in the response, but the reviewers felt that the numbers were problematic and would like to see more contextualization.

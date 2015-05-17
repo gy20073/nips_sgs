@@ -1,0 +1,11 @@
+% process of learning
+figure
+load pro
+
+[ax, h1, h2, h3]=plot(1:93, [pro_SGS07;pro_SGS10;pro_SVB2], 'linewidth',2)
+legend('SGS07','SGS10','SVB')
+set(h2(1),'linestyle','--')
+
+xlabel('batch sequence number')
+ylabel('perplexity')
+grid on
